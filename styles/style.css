@@ -1,17 +1,19 @@
 .overlay {
     z-index: 1;
     position: absolute;
-    top: 0;
-    left: 0;
     height: 100%;
     width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background: #000;
     opacity: 0.6;
 }
 .body {
-    max-width: 1440px;
     margin: auto;
     background-color: #FFF;
+    max-width: 1440px;
 }
 .header {
     display: grid;
@@ -22,8 +24,8 @@
 .header_menu_list {
     display: flex;
     align-items: center;
-    gap:  32px;
     list-style: circle ;
+    gap: 32px;
 }
 .header_menu_link {
     line-height: normal;
@@ -42,9 +44,9 @@
     text-decoration: none;
 }
 .header_logo {
+    margin: auto;
     max-width: 148px;
     height: 105px;
-    margin: auto;
 }
 .header_logo_img {
     height: 100%;
@@ -68,12 +70,12 @@
 
 .number {
     text-align: start;
-    border-bottom: 1px black solid;
     text-decoration: none;
+    border-bottom: 1px black solid;
 }
 .email {
-    border-bottom: 1px black solid;
     text-decoration: none;
+    border-bottom: 1px black solid;
 }
 
 .cover {
@@ -121,11 +123,11 @@
     letter-spacing: normal;
 }
 .cover_description {
-    padding-top: 134px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: end;
+    padding-top: 134px;
 }
 .cover_description_text {
     color: #FFF;
@@ -188,9 +190,9 @@
 }
 .card_link {
     display: block;
+    text-decoration: none;
     min-width: 430px;
     height: 450px;
-    text-decoration: none;
 }
 .card {
     position: relative;
@@ -251,18 +253,18 @@
     background-image: url(../images/card-lot-03.jpg);
 }
 .about {
-    padding: 0px 50px 185px 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    padding: 0px 50px 185px 50px;
     min-height: 487px;
     gap: 15px ;
 }
 .about_logo {
-    width: 100%;
-    height: 100%;
     display: flex;
     align-items: start;
     justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 .about_logo_img {
     display: block;
