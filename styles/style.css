@@ -26,12 +26,12 @@
     list-style: circle ;
 }
 .header_menu_link {
+    line-height: normal;
     color: #000;
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
-    line-height: normal; 
+    font-weight: 400; 
     text-decoration: none;
     border-bottom: 1px black solid;
 }
