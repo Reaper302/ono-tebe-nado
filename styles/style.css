@@ -192,6 +192,7 @@
     min-width: 430px;
     height: 450px;
     margin: 12px;
+    text-decoration: none;
 }
 .card {
     position: relative;
@@ -212,7 +213,6 @@
     text-decoration-line: underline;
     text-transform: uppercase;
     z-index: 2;
-    text-underline-offset: 5px;
 }
 .card_text {
     color: #FFF;
@@ -222,10 +222,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
-    text-decoration-line: none;
     z-index: 2;
     margin-top: auto;
-    text-decoration: none;
 }
 
 .lots_look_more_link {
@@ -313,7 +311,6 @@
    justify-content: space-between;
 }
 .footer_menu_list {
-    text-align: center;
     list-style: none;
     color: #000;
     text-align: center;
