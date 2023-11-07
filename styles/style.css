@@ -266,10 +266,6 @@
     align-items: start;
     justify-content: center;
 }
-.header_logo_img {
-    height: 114px;
-    width: 148px;
-}
 .about_logo_img {
     display: block;
     z-index: 0;
