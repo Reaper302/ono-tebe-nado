@@ -22,7 +22,7 @@
 .header_menu_list {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap:  32px;
     list-style: circle ;
 }
 .header_menu_link {
@@ -37,11 +37,9 @@
 }
 .limited {
     list-style-type: none;
-    border-bottom: none;
 }
 .limited2 {
     text-decoration: none;
-    border-bottom: none;
 }
 .header_logo {
     max-width: 148px;
@@ -71,16 +69,18 @@
 .number {
     text-align: start;
     border-bottom: 1px black solid;
+    text-decoration: none;
 }
 .email {
     border-bottom: 1px black solid;
+    text-decoration: none;
 }
 
 .cover {
     position: relative;
     z-index: 1;
-    padding: 165px 50px 50px 50px;
-    background-color: #a7a7a7;
+    padding: 170px 50px 50px 50px;
+    background-color: #000;
     background-image: url("../images/cover.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -251,11 +251,11 @@
     background-image: url(../images/card-lot-03.jpg);
 }
 .about {
-    padding: 0px 50px 180px 50px;
+    padding: 0px 50px 185px 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     min-height: 487px;
-    gap: 20px;
+    gap: 15px ;
 }
 .about_logo {
     width: 100%;
