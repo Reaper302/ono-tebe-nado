@@ -42,6 +42,7 @@
 }
 .limited2 {
     border-bottom: none;
+    text-decoration: none;
 }
 .header_logo {
     margin: auto;
