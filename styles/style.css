@@ -173,25 +173,23 @@
 }
 .lots_card_list {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
+    align-content: space-between;
+    flex-direction: column;
     flex-wrap: wrap;
     height: 450px;
     width: 100%;
     margin-bottom: 30px;
 }
 .lots_card_list_item {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    height: 100%;
-    width: 100%;
+ max-width: 430px;
+ max-height: 450px;
+ list-style-type: none;
+    
 }
 .card_link {
     display: block;
     min-width: 430px;
     height: 450px;
-    margin: 12px;
     text-decoration: none;
 }
 .card {
