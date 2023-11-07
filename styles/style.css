@@ -31,7 +31,7 @@
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400; 
+    font-weight: 400;
     text-decoration: none;
     border-bottom: 1px black solid;
 }
@@ -209,7 +209,7 @@
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    line-height: 120%; 
+    line-height: 120%;
     text-decoration-line: underline;
     text-transform: uppercase;
     z-index: 2;
