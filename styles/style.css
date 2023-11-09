@@ -60,7 +60,6 @@
 .header_contact {
     width: 240px;
     justify-self: end;
-    
 }
 .header_contact_element {
     flex-shrink: 0;
@@ -71,7 +70,6 @@
     font-weight: 400;
     line-height: 24.3px;
 }
-
 .number {
     text-align: start;
     text-decoration: none;
@@ -105,7 +103,6 @@
     letter-spacing: 30px;
     text-transform: uppercase;
 }
-
 .spacing_letter {
     letter-spacing: 60px;
 }
@@ -163,7 +160,6 @@
     margin: auto;
     padding: 180px 50px 180px 50px;
 }
-
 .lots_text {
     margin-bottom: 27px;
     margin-left: 40px;
@@ -225,7 +221,6 @@
     z-index: 2;
     margin-top: auto;
 }
-
 .lots_look_more_link {
     color: #000;
     margin-left: 40px;
@@ -270,7 +265,6 @@
     height: 240px;
     border-radius: 50%;
     background: #000;
-
 }
 .about_logo_img {
     width: 148px;
