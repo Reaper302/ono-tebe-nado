@@ -165,7 +165,6 @@
 }
 
 .lots_text {
-    vertical-align: auto;
     margin-bottom: 27px;
     margin-left: 40px;
     color: #000;
@@ -178,15 +177,15 @@
 }
 .lots_card_list {
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    gap: 25px;
     margin-bottom: 30px;
-    min-height: 450px;
 }
 .lots_card_list_item {
-    flex-grow:unset;
+    flex-grow: 1;
     width: 430px;
+    min-height: 450px;
     list-style-type: none;
 }
 .card_link {
